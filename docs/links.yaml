@@ -23,6 +23,25 @@
       link: /server/hooks
     - title: Extensions
       link: /server/extensions
+      items:
+        - title: Database
+          link: /server/extensions/database
+        - title: SQLite
+          link: /server/extensions/sqlite
+        - title: Redis
+          link: /server/extensions/redis
+        - title: Logger
+          link: /server/extensions/logger
+        - title: Webhook
+          link: /server/extensions/webhook
+        - title: Throttle
+          link: /server/extensions/throttle
+        - title: JWT Authenticator
+          link: /server/extensions/jwt-authenticator
+          type: pro
+        - title: History
+          link: /server/extensions/history
+          type: pro
     - title: Examples
       link: /server/examples
 
