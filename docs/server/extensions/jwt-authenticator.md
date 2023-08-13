@@ -8,7 +8,7 @@ Our JWT extension provides an easy way to authenticate to Hocuspocus using json 
 To get started, you need a Tiptap Pro account ([sign up / login here](https://tiptap.dev/pro)).
 :::
 
-Install the database extension like this:
+Install the JWT Authenticator extension like this:
 
 ```bash
 npm install @hocuspocus-pro/extension-jwt-authenticator
@@ -23,7 +23,6 @@ npm install @hocuspocus-pro/extension-jwt-authenticator
 ## Usage
 
 ```typescript
-
 const server = Server.configure({
   extensions: [
     new JWTAuthenticator({
